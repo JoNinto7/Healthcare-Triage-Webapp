@@ -1,0 +1,3 @@
+npm i react react-dom @mui/material @mui/icons-material axios
+cd backend
+npm i express cors body-parser csv-parser csv-writer

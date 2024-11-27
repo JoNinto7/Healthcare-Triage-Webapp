@@ -1,0 +1,22 @@
+body {
+    margin: 0;
+    padding: 0;
+    background: url('./v960-ning-34.jpg') no-repeat center center fixed;
+    background-size: cover; /* Ensures the image covers the entire background */
+    background-attachment: fixed; /* Keeps the background fixed while content scrolls */
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100%;
+    font-family: Arial, sans-serif;
+  }
+  
+  html, body {
+    height: 100%;
+    width: 100%;
+    overflow-x: hidden; /* Prevents horizontal scrolling */
+  }
+  
+  #root {
+    height: 100%;
+  }
+  

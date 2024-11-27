@@ -1,0 +1,42 @@
+/* PatientsTable.css */
+.table-container {
+    margin: 0 auto;
+    width: 100%;
+    max-width: 1200px;
+    background-color: rgba(255, 255, 255, 0.8); /* Translucent white */
+    border-radius: 12px; /* Rounded corners */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+    overflow: hidden; /* Clip overflow */
+  }
+  
+  .table-container table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  
+  .table-container th,
+  .table-container td {
+    padding: 12px; /* Padding inside cells */
+    border: none; /* Remove default borders */
+    text-align: left;
+  }
+  
+  .table-container th {
+    background-color: rgba(0, 123, 255, 0.1); /* Slightly blue background */
+    font-weight: bold;
+  }
+  
+  .table-container tr:nth-child(even) {
+    background-color: rgba(240, 248, 255, 0.6); /* Subtle alternating row color */
+  }
+  
+  .table-container tr:hover {
+    background-color: rgba(0, 123, 255, 0.2); /* Highlight on hover */
+  }
+  
+  .table-container td button {
+    margin: 0;
+    padding: 8px 12px;
+    border-radius: 8px; /* Rounded button inside the table */
+  }
+  
