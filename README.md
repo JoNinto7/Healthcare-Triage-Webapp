@@ -29,21 +29,21 @@ A healthcare task prioritization and triage system built using a React frontend 
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/your-repo/healthcare-triage-system.git -b main
+   git clone https://github.com/your-repo/healthcare-triage-webapp.git -b main
 
-   cd healthcare-triage-system
+   cd healthcare-triage-webapp
    ```
 
 2. Install backend dependencies:
    ```bash
-   cd \CS5329-Fall2024-Project\healthcare-triage\backend
+   cd healthcare-triage-webapp\backend
    
    npm i express cors body-parser csv-parser csv-writer
    ```
 
 3. Install frontend dependencies:
    ```bash
-   cd CS5329-Fall2024-Project\healthcare-triage\src
+   cd healthcare-triage-webapp\src
 
    npm i react react-dom @mui/material @mui/icons-material axios  
     ```
